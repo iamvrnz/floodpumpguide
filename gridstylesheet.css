@@ -1,0 +1,419 @@
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+  }
+
+  .contact-box {
+      font-family: tahoma, arial;
+  }
+
+.contactus-title {
+    padding-top: 10%;
+    font-family: tahoma, arial;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    color: #FFF;
+    padding-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.contactus-text {
+    font-family: tahoma, arial;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    padding-left: 10%;
+    max-width: 400px;
+
+}
+
+
+.guide-banner {
+    display: block;
+    margin: auto;
+    max-width: 1300px;
+  }
+
+p {
+    font-family: tahoma, arial;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+#title {
+    font-family: tahoma, arial;
+    font-size: 40px;
+    color: #000; 
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sub-title {
+    font-family: tahoma, arial;
+    font-size: 30px;
+    color: #000; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grid-row {
+  display: grid;
+  margin: 5% 10% 5% 10%;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+  'lpm'
+  'vsl'
+  'mhl'
+  'cow'
+  'top';
+}
+
+.grid-box {
+    font-family: tahoma;
+}
+
+.grid-title {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.grid-p {
+  font-size: 18px;
+  color: white;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 10px;   
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.recomendations-grid {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-row-gap: 2.5rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    'doc-img'
+    'doc-text'
+    'pxl-text'
+    'pxl-img'
+    'honda-img'
+    'honda-text';
+  }
+   
+.pump-box {
+    font-family: tahoma, arial;
+    padding: 2rem;
+}
+
+.pump-box .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.pump-box .text {
+    font-size: 18px;
+    text-align: left;
+}
+
+.pump-box .link {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.pump-box.background {
+    background-color: #E0E0E0;
+}
+
+a:link {
+      text-decoration: none;
+      color: #000;
+      }
+  
+a:hover {
+      text-decoration: none;
+      color: #7c1526;
+      }
+ 
+a:visited {
+        text-decoration: none;
+        color: #000;
+        }     
+
+.pump-box:nth-child(1) {
+    grid-area: doc-img;
+}
+
+.pump-box:nth-child(2) {
+    grid-area: doc-text;
+}
+
+.pump-box:nth-child(3) {
+    grid-area: pxl-text;
+}
+
+.pump-box:nth-child(4) {
+    grid-area: pxl-img;
+}
+
+.pump-box:nth-child(5) {
+    grid-area: honda-img;
+}
+
+.pump-box:nth-child(6) {
+    grid-area: honda-text;
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+  }
+
+.floodkit-grid {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    grid-row-gap: 2.5rem;
+    grid-column-gap: 1rem;
+    grid-template-areas: 
+    'floodkit-doc-img'
+    'floodkit-doc-text'
+    'floodkit-gxm-img'
+    'floodkit-gxm-text'
+    'floodkit-honda-img'
+    'floodkit-honda-text'
+    'floodkit-domo-img'
+    'floodkit-domo-text';
+  }
+
+  .floodkit-box {
+      font-family: tahoma, arial;
+  }
+
+  .floodkit-title {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      margin-top: 0;
+  }
+  .floodkit-text {
+    font-size: 18px;
+  }
+
+  .floodkit-img {
+    border: solid 4px grey;
+  }
+
+.flootkit-box:nth-child(1){
+    grid-area: floodkit-doc-img;
+}
+
+.flootkit-box:nth-child(2){
+    grid-area: floodkit-doc-text;
+}
+.flootkit-box:nth-child(3){
+    grid-area: floodkit-gxm-img;
+}
+.flootkit-box:nth-child(4){
+    grid-area: floodkit-gxm-text;
+}
+.flootkit-box:nth-child(5){
+    grid-area: floodkit-honda-img;
+}
+.flootkit-box:nth-child(6){
+    grid-area: floodkit-honda-text;
+}
+.flootkit-box:nth-child(7){
+    grid-area: floodkit-domo-img;
+}
+.flootkit-box:nth-child(8){
+    grid-area: floodkit-domo-text;
+}
+
+.hose-grid {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    grid-auto-flow: column;
+    grid-row-gap: 1em;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: 
+    'hose-lgsh'
+    'hose-blf'
+    'hose-gsh' ;
+  }  
+
+.hose-img {
+    border: 2px grey solid;
+    text-align: center;
+    width: 100%;
+    max-width: 266px;
+    height: auto;
+}
+
+
+.hose-box:nth-child(1) {
+    grid-area: hose-lgsh;
+}
+.hose-box:nth-child(2) {
+    grid-area: hose-blf;
+}
+.hose-box:nth-child(3) {
+    grid-area: hose-gsh;
+}
+
+.contact-grid {
+    display: grid;
+    margin: auto;
+    background-image: url(https://imgur.com/kKb1wrN);
+    max-width: 1200px;
+    min-height: 600px;
+    grid-auto-flow: column;
+    justify-items: center;
+    grid-template-areas: 
+    'contact-text contact-form' ;
+  }  
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: tahoma, arial;
+  }
+  
+  input[type=email] {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: tahoma, arial;
+      
+  }
+  
+  input[type=submit] {
+    background-color: #7c1526;
+    color: white;
+    padding: 12px 20px;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #FFF;
+    color: #7c1526;
+    border: 1px solid #7c1526;
+  }
+
+form {
+  margin-right: 10%;
+  font-family: tahoma, arial;
+  color: white;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+  
+
+@media all and (min-width: 400px) {
+    .recomendations-grid {
+        grid-template-areas:
+        'doc-img'
+        'doc-text'
+        'pxl-img'
+        'pxl-text'
+        'honda-img'
+        'honda-text' ;
+    }
+  
+@media all and (min-width: 567px) {
+    .recomendations-grid {
+        grid-template-areas:
+        'doc-img'
+        'doc-text'
+        'pxl-img'
+        'pxl-text'
+        'honda-img'
+        'honda-text' ;
+    }
+    .floodkit-grid {
+        grid-template-areas:
+        'floodkit-doc-img floodkit-doc-text'
+        'floodkit-gxm-img floodkit-gxm-text'
+        'floodkit-honda-img floodkit-honda-text'
+        'floodkit-domo-img floodkit-domo-text';
+    } 
+    .hose-grid {
+        grid-template-areas:
+        'hose-lgsh'
+        'hose-blf' 
+        'hose-gsh';
+    }   
+    .contact-grid {
+    grid-template-areas:
+    'contact-text'
+    'contact-form';
+  }
+    
+}
+
+@media all and (min-width: 997px) {
+    .recomendations-grid {
+        grid-template-areas:
+        'doc-img doc-text doc-text'
+        'pxl-text pxl-text pxl-img'
+        'honda-img honda-text honda-text' ;
+    }
+    
+    .floodkit-grid {
+        grid-template-areas:
+        'floodkit-doc-img floodkit-doc-text floodkit-gxm-img floodkit-gxm-text'
+        'floodkit-honda-img floodkit-honda-text floodkit-domo-img floodkit-domo-text';
+    }
+
+    .hose-grid {
+        grid-template-areas:
+        'hose-lgsh hose-blf hose-gsh';
+    }    
+  .contact-grid {
+    grid-template-areas:
+    'contact-text contact-form';
+  }
+
+  .grid-row {
+    grid-template-areas:
+    'lpm vsl mhl cow top'
+  }
+  
+}
